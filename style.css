@@ -1,0 +1,50 @@
+/* Style for index.php (List of Items) */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        width: 90%; /* Adjust width for small screens */
+    }
+
+    table, th, td {
+        font-size: 14px; /* Decrease font size for better readability on small screens */
+    }
+}
+
+/* For medium to large devices (e.g., tablets, computers) */
+@media only screen and (min-width: 601px) {
+    .form-container {
+        width: 50%; /* Adjust width for medium to large screens */
+    }
+}
+
+
+
+
