@@ -27,6 +27,32 @@ a {
 a:hover {
     text-decoration: underline;
 }
+button{
+    color: #fff;
+    background: #ff4b2b;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 55px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    outline: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80px ease-in;
+    cursor: pointer;
+	align-items: center;
+
+}
+h1{
+	text-align:center;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+	
+}
+body{
+	  background-color:azure;
+}
 
 @media only screen and (max-width: 600px) {
     .form-container {

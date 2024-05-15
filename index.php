@@ -16,10 +16,11 @@ $result = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
     <title>CRUD Application - List of Items</title>
+	
 </head>
 <body>
     <h1>List of Items</h1>
-    <a href="create.php">Add New Item</a>
+    <a href="create.php"><button>Add New Item</button></a>
     <table border="1">
         <tr>
             <th>ID</th>
@@ -35,8 +36,8 @@ $result = $conn->query($sql);
             <td><?php echo $row['description']; ?></td>
             <td><?php echo $row['created_at']; ?></td>
             <td>
-                <a href="edit.php?id=<?php echo $row['id']; ?>">Edit</a>
-                <a href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
+                <a href="edit.php?id=<?php echo $row['id']; ?>"><button1>Edit</button1></a>
+                <a href="delete.php?id=<?php echo $row['id']; ?>"><button1>Delete</button1></a>
             </td>
         </tr>
         <?php endwhile; ?>
